@@ -858,3 +858,177 @@
   margin: 0px;
 }
 }
+@media (max-width: 768px) {
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+ 
+   .Virtual-dashboard{
+    /* width: max-content; */
+    height: 100%;
+    top:0;
+   }
+   /* .dash-content{
+    padding-right: 12px;
+   } */
+   .dash-logo{
+    text-align: center;
+    
+    flex-direction: row;
+    width: fit-content;
+    height: auto;
+    justify-content: center;
+    margin: 22px 20px 0px 20px;
+  }
+  .dash-img{
+        display: none;
+  }
+   .dash-logo-text{
+    text-align: center;
+     font-size: large;
+     /* width: fit-content;*/
+     height: fit-content;
+   }
+   .dash-list{
+    margin-top: 50px;
+    width: fit-content;
+    justify-content: center;
+   }
+   .dash-iteams{ 
+    padding: 0px 15px 0px 15px;
+    /* padding-left: 25px;
+    padding-right: 10px; */
+   }
+   .iteams-details{
+    padding: 4px;
+   }
+   .iteams-details p{
+    padding-left: 14px;
+   }
+   .dash-history{
+    margin: 0px 0px 0px 10px;
+    height: max-content;
+    justify-content: center;
+   }
+   .session{
+    margin-top: 7px;
+    /* padding: 2px; */
+    height: min-content;
+    /* border:1px solid; */
+    margin-bottom: 4px;
+   }
+   
+   .Session-records{
+    flex-wrap: wrap;
+    height: min-content;
+    padding: 0px 7px 0px 7px;
+   }
+   .session-block{
+    width: 120px;
+    height: 60px;
+    
+   }
+   .session-details{
+    font-size: small;
+   }
+   .session-icon{
+    width: 35px;
+   }
+   .session-details-number{
+    font-size: 14px;
+   }
+   .profile-sec{
+    height: fit-content;
+    /* border: 1px solid ; */
+    /* margin-top: 0px; */
+   }
+   .profile-sec-content{
+    font-size: small;
+   }
+   .bar-sec{
+    margin-top: 10px;
+   }
+   .bar-lines{
+    /* 75% zoom */
+    /* margin-bottom: 30px; */
+    margin-bottom: -8px;
+   }
+   .bar-line1,.bar-line11,.bar-line9{
+    height:25%;
+   }
+   .bar-line9{
+    top:35px;
+   }
+   .bar-line2,.bar-line10{
+    height:60%;
+   }
+   .bar-line3,.bar-line8{
+    height: 40% ;
+   }
+   .bar-line5,.bar-line6,.bar-line7{
+    height: 50%;
+   }
+   .bar-day{
+    margin-top: -12px;
+    font-size: small;
+   }
+   .subscribe-session{
+    margin: 5px 0px 0px 0px;
+    padding: 0px 0px 0px 7px;
+    height: fit-content;
+  }
+   .data-stats{
+    margin-top: -9px;
+   }
+.stats-iteam{
+  padding: 0px 0px 2px 0px;
+  font-size: small;
+}
+.user-profile-photo{
+  height: 30px;
+  /* width: 30px; */
+}
+.user-profile-essential{
+  width: max-content;
+  padding: 2px 8px 2px 2px;
+}
+.user-profile-icon{
+  width: 25px;
+}
+.profile-role{
+  font-size: small;
+}
+.projects-details {
+  margin-top: -15px;
+}
+.project-details-number{
+  font-size: 14px;
+}
+.analytic-sec {
+  padding: 12px 4px 0px 0px;
+  margin-bottom: 10px;
+}
+/* .analytic-name p{
+   font-size:18px;
+} */
+ .analytics-bar-graph {
+  padding-top: 10px;
+}
+.Analytic-bar-content{
+  font-size: small;
+  top: 17px;
+}
+.Calender{
+  font-size: smaller;
+  margin: 12px 0px 15px 0px;
+}
+.Audit-Sec {
+  padding: 0px;
+  margin-bottom: 30px;
+}
+.search-bar {
+  margin: 0px;
+}
+}
